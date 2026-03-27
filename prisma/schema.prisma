@@ -29,6 +29,6 @@ model Post {
 
 modal product {
   id        Int     @id @default(autoincrement()) 
-  title     String
-  content   String? @db.Text
+  titles     String
+  contents   String
 }
