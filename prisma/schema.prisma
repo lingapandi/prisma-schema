@@ -26,3 +26,9 @@ model Post {
   content   String? @db.Text
   published Boolean @default(false) 
 } 
+
+modal product {
+  id        Int     @id @default(autoincrement()) 
+  title     String
+  content   String? @db.Text
+}
