@@ -1,5 +1,5 @@
 {
   "name": "prisma-schema",
   "version": "1.0.0",
-  "files": ["schema.prisma"]
+  "files": ["/prisma/schema.prisma"]
 }
