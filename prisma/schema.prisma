@@ -27,7 +27,7 @@ model Post {
   published Boolean @default(false) 
 } 
 
-modal product {
+model product {
   id        Int     @id @default(autoincrement()) 
   titles     String
   contents   String
